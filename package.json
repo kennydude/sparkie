@@ -1,0 +1,14 @@
+{
+	"name" : "sparkie",
+	"description" : "Sparkie is yet another build system",
+	"homepage" : "http://github.com/kennydude/sparkie",
+	"engines" : { "node": ">=0.8.8" },
+	"bin" : { "sparkie" : "./sparkie.js" },
+	"version" : "0.1.0",
+	"dependencies" : {
+		"ansi" : ">=0.1.2",
+		"commander" : ">=1.0.4",
+		"glob" : ">=3.1.12",
+		"js-yaml" : ">=1.0.2"
+	}
+}
